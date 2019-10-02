@@ -9,8 +9,25 @@ We will look into:
 - Use of while loops for efficient data querying
 - Transactions
 
+## Connection
+* Connection objects manage connections to the database 
+    created through the module connect()
+   
+
+## .cursor()
+* Cursor object represents a database cursor
+* Used to manage the context of a fetch operation
+
+
+## .cursor().execute()
+* Prepares and executes a SQL statement, returning the Cursor object itself
+
 ## pyodbc
 - A python module that makes accessing an ODBC database 
 simple
 
     pip install pyodbc
+    
+    
+    
+
